@@ -19,20 +19,20 @@ def create_board():
     """
     :return:
     """
-    return np.zeros((3, 3))
+    return np.zeros((3, 3), dtype=int)
 
 
-def place(board, player, position):
+def place(brd, player, position):
     """
-    :param board: this is playing area
+    :param brd: this is playing area
     :param player: this is current player, 1 or 2
     :param position: a tuple of length 2 specifying desired location to place marker
-    :return:
+    :return: updated playing area
     """
-    if board[position] == 0:
-        board[position] = player
+    if brd[position] == 0:
+        brd[position] = player
 
-    return board
+    return brd
 
 if __name__ == '__main__':
 
