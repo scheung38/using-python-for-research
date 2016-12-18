@@ -1,5 +1,5 @@
 import numpy as np
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
+from Week3_StudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
 
 
 def make_prediction_grid(predictors, outcomes, limits, h, k):

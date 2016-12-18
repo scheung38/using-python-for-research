@@ -4,7 +4,7 @@
 # Print coded_message.
 
 
-from Week3_CaseStudiesPart1.Case1_DNATranslation.Exercise.ex2 import alphabet, letters, coded_message
+from Week3_StudiesPart1.Case1_DNATranslation.Exercise.ex2 import alphabet, letters, coded_message
 
 key = 3
 

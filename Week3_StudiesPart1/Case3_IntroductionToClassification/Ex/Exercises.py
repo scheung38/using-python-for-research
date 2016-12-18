@@ -16,7 +16,7 @@ import random
 import numpy as np
 import pandas as pd
 
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
+from Week3_StudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
 
 data = pd.read_csv("https://s3.amazonaws.com/demo-datasets/wine.csv")
 # print(data)

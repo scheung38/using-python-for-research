@@ -12,9 +12,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.cc_3_3_1_intro_to_kNN_classification.Introduction_to_kNN_Classification import \
+from Week3_StudiesPart1.Case3_IntroductionToClassification.cc_3_3_1_intro_to_kNN_classification.Introduction_to_kNN_Classification import \
     distance
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.cc_3_3_1_intro_to_kNN_classification.MajorityVote import \
+from Week3_StudiesPart1.Case3_IntroductionToClassification.cc_3_3_1_intro_to_kNN_classification.MajorityVote import \
     majority_vote
 
 points = np.array([[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]])

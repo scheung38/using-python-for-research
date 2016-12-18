@@ -3,8 +3,8 @@ from sklearn import datasets
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.cc_3_3_6_making_a_prediction_grid.cc_3_3_6_making_prediction_grid import \
+from Week3_StudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
+from Week3_StudiesPart1.Case3_IntroductionToClassification.cc_3_3_6_making_a_prediction_grid.cc_3_3_6_making_prediction_grid import \
     make_prediction_grid
 
 iris = datasets.load_iris()

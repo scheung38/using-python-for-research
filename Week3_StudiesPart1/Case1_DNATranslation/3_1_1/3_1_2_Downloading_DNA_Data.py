@@ -67,7 +67,7 @@ def translate(seq):
 
             # Python Console
             # import os
-            # os.chdir('Week3_CaseStudiesPart1/Case1_DNATranslation/3_1_1')
+            # os.chdir('Week3_StudiesPart1/Case1_DNATranslation/3_1_1')
             # os.getcwd()
 
     return protein

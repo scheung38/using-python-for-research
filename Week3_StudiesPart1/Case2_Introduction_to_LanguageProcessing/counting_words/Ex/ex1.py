@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from Week3_CaseStudiesPart1.Case2_Introduction_to_LanguageProcessing.counting_words.counting_words import \
+from Week3_StudiesPart1.Case2_Introduction_to_LanguageProcessing.counting_words.counting_words import \
     count_words_fast
 
 text = "There is some txt from Shakespeare"

@@ -2,9 +2,9 @@ import scipy.stats as ss
 import numpy as np
 import matplotlib.pyplot as plt
 
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.cc_3_3_5_generating_synthetic_data import generate_synth_data
-from Week3_CaseStudiesPart1.Case3_IntroductionToClassification.cc_3_3_6_making_a_prediction_grid.cc_3_3_6_making_prediction_grid import \
+from Week3_StudiesPart1.Case3_IntroductionToClassification.Ex.k_NearestNeighboursClassifier import knn_predict
+from Week3_StudiesPart1.Case3_IntroductionToClassification.cc_3_3_5_generating_synthetic_data import generate_synth_data
+from Week3_StudiesPart1.Case3_IntroductionToClassification.cc_3_3_6_making_a_prediction_grid.cc_3_3_6_making_prediction_grid import \
     make_prediction_grid
 
 predictors, outcomes = generate_synth_data()
